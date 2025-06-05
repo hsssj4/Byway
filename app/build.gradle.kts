@@ -33,6 +33,7 @@ android {
 }
 
 dependencies {
+    implementation ("androidx.activity:activity:1.8.0")
     // Firebase BOM - 버전 통일
     implementation(platform(libs.firebase.bom)) // libs.versions.toml에서 관리됨
 

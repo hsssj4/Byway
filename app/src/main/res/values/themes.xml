@@ -3,6 +3,9 @@
     <style name="Base.Theme.Byway" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/toolbar_brown</item>
+        <item name="colorPrimaryVariant">@color/toolbar_brown</item> <!-- 필요시 -->
+        <item name="colorOnPrimary">#FFFFFF</item>
     </style>
 
     <style name="Theme.Byway" parent="Base.Theme.Byway" />

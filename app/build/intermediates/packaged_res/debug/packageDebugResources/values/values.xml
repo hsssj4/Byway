@@ -13,6 +13,7 @@
     <color name="green">#A0C4A8</color>
     <color name="heart">#C0818D</color>
     <color name="pink">#D49295</color>
+    <color name="toolbar_brown">#A47764</color>
     <color name="white">#FFFFFFFF</color>
     <color name="yellow">#EAD694</color>
     <string name="app_name">Byway</string>
@@ -32,6 +33,9 @@
     <style name="Base.Theme.Byway" parent="Theme.Material3.DayNight.NoActionBar">
         
         
+        <item name="colorPrimary">@color/toolbar_brown</item>
+        <item name="colorPrimaryVariant">@color/toolbar_brown</item> 
+        <item name="colorOnPrimary">#FFFFFF</item>
     </style>
     <style name="Theme.Byway" parent="Base.Theme.Byway"/>
 </resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 클릭 시 -->
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <solid android:color="#8C5E4F" />
+            <corners android:radius="8dp" />
+        </shape>
+    </item>
+
+    <!-- hover 시 -->
+    <item android:state_hovered="true">
+        <shape android:shape="rectangle">
+            <solid android:color="#B78974" />
+            <corners android:radius="8dp" />
+        </shape>
+    </item>
+
+    <!-- 기본 상태 -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#A47764" />
+            <corners android:radius="8dp" />
+        </shape>
+    </item>
+</selector>
