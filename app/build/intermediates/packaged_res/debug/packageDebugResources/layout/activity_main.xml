@@ -155,8 +155,7 @@
             android:id="@+id/fab_sub_left"
             android:layout_width="48dp"
             android:layout_height="48dp"
-            android:scaleType="centerInside"
-            android:src="@drawable/ic_byway"
+            android:src="@drawable/ic_launcher_foreground"
             app:backgroundTint="@color/brown"
             app:tint="@android:color/white"
             android:layout_marginEnd="32dp"/>
@@ -166,8 +165,8 @@
             android:id="@+id/fab_sub_right"
             android:layout_width="48dp"
             android:layout_height="48dp"
-            android:src="@drawable/ic_addway"
-            android:scaleType="centerInside"
+            android:src="@drawable/ic_byway"
+            android:scaleType="center"
             app:backgroundTint="@color/brown"
             app:tint="@android:color/white"/>
     </LinearLayout>

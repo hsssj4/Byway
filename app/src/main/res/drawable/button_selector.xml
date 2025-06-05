@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <!-- 클릭 시 -->
+    <!-- 눌렀을 때 -->
     <item android:state_pressed="true">
         <shape android:shape="rectangle">
-            <solid android:color="#8C5E4F" />
+            <solid android:color="#8C5E4F" /> <!-- 누름 시 약간 어두운 색 -->
             <corners android:radius="8dp" />
         </shape>
     </item>
 
-    <!-- hover 시 -->
+    <!-- hover 되었을 때 (API 21 이상) -->
     <item android:state_hovered="true">
         <shape android:shape="rectangle">
-            <solid android:color="#B78974" />
+            <solid android:color="#B78974" /> <!-- hover 시 약간 밝은 색 -->
             <corners android:radius="8dp" />
         </shape>
     </item>
@@ -19,7 +19,7 @@
     <!-- 기본 상태 -->
     <item>
         <shape android:shape="rectangle">
-            <solid android:color="#A47764" />
+            <solid android:color="#A47864" />
             <corners android:radius="8dp" />
         </shape>
     </item>
